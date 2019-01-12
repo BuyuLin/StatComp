@@ -1,0 +1,32 @@
+Package: TIE
+Type: Package
+Title: Estimating tail index in time series
+Version: 0.1.0
+Author: Buyu Lin
+Maintainer: The package maintainer <lbywhj@mail.ustc.edu.cn>
+Imports:
+    neldermead,
+    stats,
+    quantmod,
+    SpatialExtremes,
+    Ball,
+    DAAG,
+    MASS,
+    RANN,
+    boot,
+    bootstrap,
+    energy,
+    microbenchmark
+Description: Use a new method to estimate the tail index, combine the quantile regression and 
+    extreme value theory. I adapt the framework of Tail Index Regression to the time series,
+    especially in the financial time seires. And make some improvement of the original framework,
+    and use the method to estimate very high quantiles. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+URL:http://github.com/zhanghfd/StatComp/issues
+BugReports:http://github.com/zhanghfd/StatComp/issues
+
