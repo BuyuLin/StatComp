@@ -1,2 +1,3 @@
 # StatComp
-The final assignment of statcomputation
+The final assignment of statcomputation.
+Install.packages('StatComp18070')
